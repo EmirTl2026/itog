@@ -6,7 +6,7 @@
 ** «Currency Converter» - Приложение для конвертации валют с использованием внешнего API и сохранением истории.**
 ## Требования для запуска
 - Python 3.10 или выше
-- Библиотеки: 'pip install requests tkcalendar', 
+- Библиотеки: 'pip install requests'
 ## Как получить API-ключ
 1. Зарегистрируйтесь на exchangerate-api.com.
 2. Получите ключ и вставьте его в переменную API_KEY в коде.
@@ -25,6 +25,6 @@ def get_rate(from_cur, to_cur):
     return data["conversion_rate"]
 
 ## Примеры использования
-1. Запустите main.py.
+1. Команда запуска `python main.py`
 2. Выберите валюты, введите сумму и нажмите «Конвертировать».
 3. История сохраняется в history.json.
